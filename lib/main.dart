@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/mywebview.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 void main() {
@@ -100,6 +101,9 @@ class _WebviewAppState extends State<WebviewApp> {
             ),
           ),
         ],
+      ),
+      body: MyWebView(
+        controller: controller,
       ),
     );
   }
