@@ -16,7 +16,20 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const WebviewApp(),
           );
+  }
+}
+class WebviewApp extends StatefulWidget {
+  const WebviewApp({super.key});
+
+  @override
+  State<WebviewApp> createState() => _WebviewAppState();
+}
+
+class _WebviewAppState extends State<WebviewApp> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
