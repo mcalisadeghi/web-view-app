@@ -96,7 +96,7 @@ class _WebviewAppState extends State<WebviewApp> {
             onPressed: () {
               controller.reload();
             },
-            icon: Icon(
+            icon: const Icon(
               Icons.reply,
             ),
           ),

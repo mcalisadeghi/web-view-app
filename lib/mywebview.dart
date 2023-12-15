@@ -60,7 +60,7 @@ class _MyWebViewState extends State<MyWebView> {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: [
+      children: <Widget>[
         WebViewWidget(
           controller: widget.controller,
         ),
